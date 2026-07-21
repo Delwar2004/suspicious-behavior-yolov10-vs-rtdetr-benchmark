@@ -108,3 +108,57 @@ The models were evaluated using standard object detection metrics:
 ---
 
 ## 📁 Repository Structure
+
+```text
+YOLOv10-vs-RTDETR-Benchmark/
+│
+├── notebook/
+│   └── SuspiciousBehavior_YOLOv10n_RTDETR.ipynb
+│
+├── results/
+│   ├── YOLOv10_results.csv
+│   ├── RTDETR_results.csv
+│   └── Final_Model_Comparison.csv
+│
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+---
+
+## 🚀 Future Work
+
+This benchmark represents an initial experimental study.
+
+Future research directions include:
+
+- Evaluation on larger surveillance datasets
+- Cross-dataset generalization
+- Lightweight deployment for edge devices
+- Real-time video inference
+- Multi-camera surveillance systems
+- Human behavior understanding with Vision-Language Models
+
+---
+
+## ⚠️ Disclaimer
+
+This repository is intended for educational and research benchmarking purposes.
+
+The experiments were conducted to compare object detection architectures and should not be interpreted as a production-ready surveillance solution.
+
+---
+
+## 👨‍💻 Author
+
+**MD DELWAR HUSEN**
+
+Undergraduate Student  
+Information and Communication Engineering (ICE)
+
+Machine Learning • Deep Learning • Computer Vision • Medical AI
+
+---
+
+⭐ If you found this project useful, consider giving the repository a star.
